@@ -101,15 +101,29 @@ body{
     color: #000;
 }
 
-.back-button{
+/* .back-button{
     position: fixed;
     display: flex;
     align-items: center;
     gap: 15px;
+} */
+
+.back-button {
+    display: flex;
+    position: fixed;
+    top: 10%;
+    left: 0px;
+    background-color: #d5d3d3;
+    padding: 15px 40px;
+    border-top-right-radius: 30px;
+    z-index: 9999 !important;
+    border-bottom-right-radius: 30px;
 }
 
 .back-icon{
     width: 25px;
+    margin-top: 10px;
+    padding-right: 5px;
 }
 
 @media(max-width:1600px){
@@ -133,6 +147,7 @@ body{
 }
 
 .back-button p{
+    padding-left: 10px;
     font-family: 'poppins-medium';
     font-weight: 700;
     font-size: 32px;
